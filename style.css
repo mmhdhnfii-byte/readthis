@@ -91,15 +91,16 @@ body {
   }
 
   .letter {
-    position:absolute;
-    top:50%;
-    transform:translate(-50%,-50%);
     width: 95%;
+    max-width: none;
     height: 75vh;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    padding: 30px 20px 30px 60px;
   }
 
   .letter p {
-    margin-top: 0;
+    margin-top: -40px;
   }
 
   #typedText {
