@@ -5,7 +5,7 @@ Dan aku hanya ingin menyampaikan itu saja.`;
 
 function showLetter() {
   const audio = document.getElementById("bgm");
-  audio.volume = 0.5;
+  audio.volume = 1.0;
   audio.play(); 
 
   document.getElementById("introText").style.opacity = 0;
@@ -28,6 +28,7 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
 
 
 
