@@ -1,7 +1,7 @@
-const message = `Sejak kamu ada, hari-hariku berjalan seperti biasa.
-Tidak ada hal besar yang berubah,
-hanya saja rasanya lebih nyaman menjalaninya.
-Mungkin karena ada kamu di dalamnya.`;
+const message = `Hai, lagi ngapain?
+Aku cuma mau bilang kalau akhir-akhir ini kamu sering terlintas di pikiranku.
+Nggak ada hal besar, cuma rasa peduli yang tumbuh pelan-pelan.
+Dan aku hanya ingin menyampaikan itu saja.`;
 
 function showLetter() {
   const audio = document.getElementById("bgm");
@@ -28,5 +28,6 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
 
 
