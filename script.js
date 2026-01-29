@@ -1,12 +1,7 @@
-const message = `Sejak kau ada di sini, dunia yang dulu biasa saja
-pelan-pelan belajar jadi hangat.
-Tawa kecilmu terasa seperti lagu
-yang terus terulang di kepalaku.
-
-Aku tak minta banyak—
-cukup tetap di sini,
-karena nyatanya,
-hadirku lebih utuh saat kau ada.`;
+const message = `Sejak kamu ada, hari-hariku berjalan seperti biasa.
+Tidak ada hal besar yang berubah,
+hanya saja rasanya lebih nyaman menjalaninya.
+Mungkin karena ada kamu di dalamnya.`;
 
 function showLetter() {
   const audio = document.getElementById("bgm");
@@ -33,4 +28,5 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
 
