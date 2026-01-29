@@ -4,9 +4,7 @@ function showLetter() {
   document.getElementById("introText").style.opacity = 0;
   document.querySelector(".btn").style.display = "none";
   
-const audio = document.getElementById("hivi.mp3");
-  music.volume = 3;
-  music.play();
+
   
   setTimeout(() => {
     const letterBox = document.getElementById("letterBox");
@@ -25,5 +23,6 @@ const audio = document.getElementById("hivi.mp3");
     typeWriter();
   }, 600);
 }
+
 
 
