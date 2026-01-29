@@ -75,16 +75,7 @@ body {
   background-position: center;
   pointer-events: none;
 }
-.signature {
-  display:none;
-  position: absolute;
-  bottom: -20px;
-  right: 6px;
-  width: 180px;
-  opacity: 0.9;
-  pointer-events: none;
-  transform: rotate(-2deg);
-}
+
 
 @media (max-width: 768px) {
   body {
@@ -113,13 +104,12 @@ body {
     margin-top: -40px;
   }
 
-  .signature {
-    width: 140px;
-    bottom: -10px;
-  }
+  
+  
 }
 .letter {
   font-size: clamp(1.1rem, 3.5vw, 1.3rem);
 }
+
 
 
