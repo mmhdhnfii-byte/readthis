@@ -78,7 +78,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    justify-content:flex-start;
+    padding:1.9rem;
   }
 
   .intro {
@@ -114,6 +114,7 @@ body {
 .letter {
   font-size: clamp(1.15rem, 3.5vw, 1.35rem);
 }
+
 
 
 
