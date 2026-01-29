@@ -4,8 +4,8 @@ function showLetter() {
   document.getElementById("introText").style.opacity = 0;
   document.querySelector(".btn").style.display = "none";
   
-const music = document.getElementById("bgMusic");
-  music.volume = 1;
+const audio = document.getElementById("hivi.mp3");
+  music.volume = 3;
   music.play();
   
   setTimeout(() => {
@@ -25,4 +25,5 @@ const music = document.getElementById("bgMusic");
     typeWriter();
   }, 600);
 }
+
 
