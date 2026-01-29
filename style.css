@@ -56,11 +56,10 @@ body {
   white-space: pre-wrap;
   overflow-wrap: break-word;
   font-family: "Courier New", monospace;
-  overflow: visible;
+  overflow-y:auto ;
 }
 .letter p {
-  margin-top: -55px;
-  overflow: hidden;
+  margin-top: 0;
 }
 .letter::before {
   content: "";
@@ -108,8 +107,9 @@ body {
   
 }
 .letter {
-  font-size: clamp(1.1rem, 3.5vw, 1.3rem);
+  font-size: clamp(1.15rem, 3.5vw, 1.35rem);
 }
+
 
 
 
