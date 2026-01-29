@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Georgia", serif;
-  background: #1e1e2f;
+  background: #b3e0ff;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -114,6 +114,7 @@ body {
 .letter {
   font-size: clamp(1.15rem, 3.5vw, 1.35rem);
 }
+
 
 
 
