@@ -78,7 +78,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    justify-content:center;
+    justify-content:flex-start;
   }
 
   .intro {
@@ -91,16 +91,15 @@ body {
   }
 
   .letter {
+    position:absolute;
+    top:50%;
+    transform:translate(-50%,-50%);
     width: 95%;
-    max-width: none;
     height: 75vh;
-    font-size: 1.25rem;
-    line-height: 1.8;
-    padding: 30px 20px 30px 60px;
   }
 
   .letter p {
-    margin-top: -40px;
+    margin-top: 0;
   }
 
   #typedText {
@@ -114,6 +113,7 @@ body {
 .letter {
   font-size: clamp(1.15rem, 3.5vw, 1.35rem);
 }
+
 
 
 
