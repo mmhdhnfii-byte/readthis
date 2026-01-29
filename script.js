@@ -3,7 +3,11 @@ const message = `I don’t even know if you’ll ever read this.\nBut if you do�
 function showLetter() {
   document.getElementById("introText").style.opacity = 0;
   document.querySelector(".btn").style.display = "none";
-
+  
+const music = document.getElementById("bgMusic");
+  music.volume = 1;
+  music.play();
+  
   setTimeout(() => {
     const letterBox = document.getElementById("letterBox");
     const typedText = document.getElementById("typedText");
@@ -21,3 +25,4 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
