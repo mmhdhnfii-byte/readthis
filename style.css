@@ -84,6 +84,7 @@ body {
 
   .intro {
     font-size: 1.6rem;
+    color: #000;
   }
 
   .btn {
@@ -115,6 +116,7 @@ body {
 .letter {
   font-size: clamp(1.15rem, 3.5vw, 1.35rem);
 }
+
 
 
 
