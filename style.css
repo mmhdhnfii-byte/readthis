@@ -76,6 +76,7 @@ body {
   pointer-events: none;
 }
 .signature {
+  display:none;
   position: absolute;
   bottom: -20px;
   right: 6px;
@@ -120,4 +121,5 @@ body {
 .letter {
   font-size: clamp(1.1rem, 3.5vw, 1.3rem);
 }
+
 
