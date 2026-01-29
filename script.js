@@ -2,7 +2,8 @@ const message = `I don’t even know if you’ll ever read this.\nBut if you do�
 
 function showLetter() {
   const audio=document.getElementByid("bgm");
-    audio.play();
+  audio.volume=0.5
+  audio.play();
   document.getElementById("introText").style.opacity = 0;
   document.querySelector(".btn").style.display = "none";
 
@@ -23,4 +24,5 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
 
