@@ -20,6 +20,7 @@ body {
   margin-bottom: 70px;
   opacity: 1;
   transition: opacity 1s ease;
+  color: #000;
 }
 .btn {
   padding: 40px 50px;
@@ -114,6 +115,7 @@ body {
 .letter {
   font-size: clamp(1.15rem, 3.5vw, 1.35rem);
 }
+
 
 
 
