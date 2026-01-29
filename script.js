@@ -1,3 +1,8 @@
+const message =Sejak kau ada di sini, dunia yang dulu biasa saja pelan-pelan belajar jadi hangat.
+Tawa kecilmu terasa seperti lagu yang terus terulang di kepalaku, sederhana tapi menenangkan.
+Aku tak minta banyak—cukup tetap di sini,
+karena nyatanya, hadirku lebih utuh saat kau ada.
+
 function showLetter() {
   const audio = document.getElementById("bgm");
   audio.volume = 0.5;
@@ -23,3 +28,4 @@ function showLetter() {
     typeWriter();
   }, 600);
 }
+
